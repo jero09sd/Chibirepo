@@ -7,7 +7,39 @@ body{
   background-position: center;
   background-repeat: no-repeat;
   background-color: black;
+}
 * {
   margin: 0;
   padding: 0;
 }
+footer{
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(20px);
+}
+footer a{
+  color: white;
+}
+nav{
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.sidebar{
+  backdrop-filter: blur(20px);
+}
+.sm-fixed-bottom{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+@media (max-width:600px){
+  .sm-fixed-bottom{
+    position: static;
+  }
+}
+/* section {
+  height: 100vh;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
